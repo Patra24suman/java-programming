@@ -7,6 +7,9 @@ public class Test {
         }
 
         static{
+            System.out.println("BBSR");
+        }
+        static{
             System.out.println("Utkal University");
         }
 
