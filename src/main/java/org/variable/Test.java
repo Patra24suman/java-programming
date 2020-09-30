@@ -1,5 +1,7 @@
 package org.variable;
-
+/*
+ variable declaration
+*/
 public class Test {
     static int x ;
     String y ;

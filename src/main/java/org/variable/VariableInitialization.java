@@ -1,4 +1,7 @@
 package org.variable;
+/*
+variable Initialization
+ */
 
 public class VariableInitialization {
 
@@ -9,6 +12,7 @@ public class VariableInitialization {
         ageOfStudent=20;
         System.out.println("Age="+ageOfStudent);
     }
+
     static void m1(){
         ageOfStudent=30;
         System.out.println("Inside Static Method");

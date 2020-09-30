@@ -10,6 +10,9 @@ public class VariableFinal {
          System.out.println("Value of Static Variable="+staticVariable);
          //System.out.println(nonStaticVariable);//non-static variable can not be referenced from static context
      }
+     /*
+     constant variable
+      */
     {
         System.out.println("Value of Non-static Variable="+nonStaticVariable);
     }
