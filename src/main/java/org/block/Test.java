@@ -1,5 +1,10 @@
 package org.block;
+/*
 
+*Static block and Non-Static block
+*
+
+ */
 public class Test {
 
         static{
