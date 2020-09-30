@@ -1,7 +1,6 @@
 package org.variable;
 
-public class VariableDeclaration {
-
+public class Test {
     static int x ;
     String y ;
 
@@ -20,7 +19,7 @@ public class VariableDeclaration {
     {
         System.out.println("Inside Static Method");
         System.out.println("Value of X=" +x);
-        // System.out.println("Value of Y="+y);
+       // System.out.println("Value of Y="+y);
     }
 
     void m2()
@@ -35,15 +34,11 @@ public class VariableDeclaration {
 
 
         System.out.println("Inside Main Method");
-        System.out.println("Value of X=" + x);
-        // System.out.println("Value of Y="+y);
+        System.out.println("Value of X=" +x);
+       // System.out.println("Value of Y="+y);
 
-        VariableDeclaration vd = new VariableDeclaration();
-        vd.m2();
+        Test t=new Test();
+        t.m2();
         m1();
-
-
     }
-
-
 }
