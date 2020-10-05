@@ -1,13 +1,16 @@
 package org.block;
 /*
 *
+*
 *Static block and Non-Static block
 *
 *
  */
 public class Test {
 
-        static{
+
+
+       static{
             System.out.println("Static Block");
         }
 
@@ -28,7 +31,8 @@ public class Test {
 
         public static void main(String[] args) {
             System.out.println("Main Method");
-            Test t=new Test();
+           Test t=new Test();
+
 
         }
 
